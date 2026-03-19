@@ -1,16 +1,44 @@
-# React + Vite
+# 🎓 Student Attendance Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance Student Directory and Attendance Tracking dashboard built with **React**, **Tailwind CSS**, and a dynamic **Starry Night CSS background**.
 
-Currently, two official plugins are available:
+## ✨ Features
+- **🌐 Real-time Data**: Fetches student directory information from the JSONPlaceholder API.
+- **📊 Interactive Metrics**: Generates randomized attendance tracking for visualization.
+- **🔍 Smart Filtering**: Easily filter by "Present", "Absent", or "All" students.
+- **⚠️ Performance Alerts**: One-click toggle to highlight students with critical attendance (<75%).
+- **↕️ Dynamic Sorting**: Sort students by attendance percentage in ascending or descending order.
+- **✨ Starry UI**: Minimalist, dark-themed deep space background with twinkling CSS stars.
+- **📱 Responsive & Clean**: Fully mobile-responsive layout with expandable student details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tech Stack
+- **React 19** (Vite)
+- **Tailwind CSS 4**
+- **Lucide React** (Icons)
 
-## React Compiler
+## 🛠️ Installation & Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/GodFajan/Student-Tracker.git
+   cd Student-Tracker
+   ```
 
-## Expanding the ESLint configuration
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+## 📝 Learning Outcomes
+- Managing complex lists and conditional styling in React.
+- Implementing multiple filter/search interactions within a shared state.
+- Creating performant CSS-only animations for dynamic UI backgrounds.
+- Handling API lifecycle events and loading/empty UI states.
+
+---
+Built with ❤️ by [GodFajan](https://github.com/GodFajan)
