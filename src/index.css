@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-deep-space: #000000;
+  --animate-twinkle: twinkle 3s ease-in-out infinite;
+  
+  @keyframes twinkle {
+    0%, 100% { opacity: 0; transform: scale(0.5); }
+    50% { opacity: 1; transform: scale(1.2); }
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--color-deep-space);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  #root {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
